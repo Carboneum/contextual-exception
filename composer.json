@@ -1,0 +1,21 @@
+{
+  "name": "carboneum/contextual-exception",
+  "type": "library",
+  "description": "Small library to create consistent exceptions hierarchy.",
+  "homepage": "http://github.com/carboneum/contextual-exception",
+  "license": "MIT",
+  "authors": [],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "codeclimate/php-test-reporter": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Carboneum\\ContextualException\\": "src",
+      "CarboneumTest\\ContextualException\\": "test"
+    }
+  }
+}
