@@ -4,7 +4,12 @@
   "description": "Small library to create consistent exceptions hierarchy.",
   "homepage": "http://github.com/carboneum/contextual-exception",
   "license": "MIT",
-  "authors": [],
+  "authors": [
+    {
+      "name": "Aleksandr Obukhov",
+      "email": "a.a.obukhov@gmail.com"
+    }
+  ],
   "require": {
     "php": ">=5.5.0"
   },
