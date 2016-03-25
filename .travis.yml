@@ -6,5 +6,9 @@ php:
 
 install: composer install
 
+addons:
+  code_climate:
+    repo_token: 054b93b8b125197a8c889956f23c8342eed9802490acddc983f6813a00ade410
+
 after_script:
   - vendor/bin/test-reporter
