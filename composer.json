@@ -18,7 +18,7 @@
     "codeclimate/php-test-reporter": "*"
   },
   "autoload": {
-    "psr-0": {
+    "psr-4": {
       "Carboneum\\ContextualException\\": "src",
       "CarboneumTest\\ContextualException\\": "test"
     }
